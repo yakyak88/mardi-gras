@@ -1,0 +1,38 @@
+body {
+  background: #222;
+}
+
+a, a:hover {
+  color: #999;
+}
+h2{text-align: center;
+padding: 0.7em;
+}
+.panel-body{padding: 5px;}
+.btn-dark {
+  background: dc5541(0,0,0,0.5);
+}
+
+.btn-dark:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.panel-dark {
+  background: #151515;
+  color: #aaa;
+  font-weight: 200;
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+.panel-dark .panel-heading {
+  background: #111;
+}
+
+.panel-dark .panel-heading h4 {
+  color: #666;
+  font-weight: normal;
+}
+
+.panel-dark .panel-heading + .panel-collapse > .panel-body {
+  border-top: 1px solid rgba(0,0,0,0.5);
+}

@@ -1,0 +1,61 @@
+@import "style.css";
+@import "misc.css";
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap');
+
+
+$pattaya: font-family 'pattaya';
+$colorbody: #fdf8e5;
+$yellowC: #f2cc0f;
+$purpleDarkC: #55038c;
+$blackC: #0d0d0d;
+$whiteC: #f2f2f2;
+$purpleC: #9453a6;
+$greenDark: #050;
+$redC: #dc5541;
+$greenC: #8cbf3f;
+
+h1 {
+    color: #8cbf3f;
+}
+
+#nav {
+    background-color: #55038c;
+    height: 7em;
+ 
+}
+
+.card-text {
+    height: 10vh;
+    color: $purpleDarkC;
+}
+
+footer {
+    background-color: #f2cc0f;
+    nav {
+        text-align: center;
+        height: 6vh;
+    }
+}
+
+.card-body{
+    background-color: #f2cc0f;
+}
+.img1{
+    width: 10vw;
+    height: 10vh;
+
+
+    vertical-align: middle;
+    border-style: none;
+}
+.paragraph {
+    color: #0D0D0D;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    flex-basis: 500px;
+}
+
+footer nav{
+    margin-top: 8vh;
+}
